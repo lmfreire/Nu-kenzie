@@ -1,0 +1,70 @@
+.Card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.TypeEntrada {
+  border-left: 4px solid #03B898;
+}
+
+.TypeSaida {
+  border-left: 4px solid #E9ECEF;
+}
+
+.TypeValues > h1 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 30px;
+
+  color: #212529;
+}
+
+.TypeValues > p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #5b6166;
+}
+
+.TypeButton {
+  display: flex;
+  align-items: center;
+}
+
+.TypeButton > button {
+  background: #e9ecef;
+
+  border: 1.4px solid #e9ecef;
+  border-radius: 8px;
+  cursor: pointer;
+
+  font-family: "Nunito";
+  font-weight: 600;
+  font-size: 14px;
+  color: #2c2c2d;
+
+  height: 30px;
+  width: 60px;
+
+  margin-left: 5px;
+}
+
+.TypeButton > p {
+  font-family: "Nunito";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 22px;
+
+  color: #212529;
+  margin-right: 5px;
+}

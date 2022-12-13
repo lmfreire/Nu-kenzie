@@ -1,0 +1,75 @@
+.Form > div {
+  margin: 15px;
+  border: 1px solid rgb(210, 210, 210);
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.DivPrincipal > div,
+.Components > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.DivPrincipal > div > label,
+.Components > div > label {
+  font-family: "Inter";
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #212529;
+}
+
+.DivPrincipal > div > input,
+.Components > div > input {
+  background: #f8f9fa;
+  padding: 15px;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+}
+
+.DivPrincipal > div > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #868e96;
+}
+
+.ComponentValor,
+.ComponentSelect {
+  width: 60%;
+  margin: 3px;
+}
+
+.ComponentSelect > select {
+  background: #f8f9fa;
+  padding: 15px;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+}
+.ComponentSelect > select > * {
+  padding: 10px;
+  background: #f8f9fa;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+}
+
+.DivPrincipal > button {
+  background: #fd377e;
+
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+  width: 80%;
+  margin-left: 10%;
+  
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+
+  cursor: pointer;
+}

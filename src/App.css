@@ -1,0 +1,44 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  box-shadow: 0 2px 4px -2px gray;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.Header > h1 {
+  color: #fd377e;
+}
+
+.Header > h1 > span {
+  color: #212529;
+}
+
+.Header > button {
+  background: #e9ecef;
+
+  border: 1.4px solid #e9ecef;
+  border-radius: 8px;
+  cursor: pointer;
+
+  font-family: "Nunito";
+  font-weight: 600;
+  font-size: 14px;
+  color: #5b6166;
+
+  height: 40px;
+  width: 60px;
+}
+
+.Body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Aside {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}

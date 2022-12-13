@@ -1,0 +1,55 @@
+.Home {
+  display: flex;
+  background-color: #282c34;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  min-height: 100vh;
+  min-width: 50vh;
+}
+
+.Texto {
+  margin-left: 40px;
+  width: 35%;
+
+  font-family: "Nunito";
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 48px;
+  text-align: start;
+
+  color: #ffffff;
+}
+
+.Texto > h2 {
+  color: #fd377e;
+  font-size: 28px;
+  margin-bottom: -30px;
+}
+
+.Texto > h2 > span {
+  color: white;
+}
+
+.Texto > p {
+  font-family: "Nunito";
+  font-size: 20px;
+  line-height: 15px;
+
+  color: #cdcdcd;
+}
+
+.Texto > button {
+  background: #fd377e;
+
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+
+  width: 50%;
+  padding: 15px;
+
+  color: white;
+  font-size: 20px;
+
+  cursor: pointer;
+}
